@@ -36,9 +36,9 @@ h3 {
 }
 
 #three {
-  float: left;
+  float: right;
   margin: 300px;
-  top: -100px;
+  top: 100px;
   position: relative;
 }
 
