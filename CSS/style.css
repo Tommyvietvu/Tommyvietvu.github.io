@@ -1,41 +1,69 @@
-@import url('https://fonts.googleapis.com/css?family=Athiti|Nunito&display=swap');
-
 body {
-  background-color: #80E9FF;
-  background-image: url("/images/Landscape.jpg");
-  font-family: 'Athiti', sans-serif;
+  max width: 1000px;
+  margin: auto;
+  background-image: url("/images/onepiece_manga.png");
+  background-size: 4000px 2800px;
+  background-repeat: no-repeat;
+  background-color: white;
   text-align: center;
 }
 
 h1 {
-  color: #394580;
-  font-size: 22pt;
-  font-family: 'Nunito', sans-serif;
-}
-
-h3 {
-  color: black;
-  font-size: 18pt;
+  color: red;
+  font-size: 40px;
+  font-family: 'georgia', sans-serif;
 }
 
 p {
-  color: #132580;
-  font-size: 14pt;
+  color: maroon;
+  font-size: 30px;
+  margin: 50px;
+  font-family: 'georgia', sans-serif;
 }
 
-a {
-  color: White;
-  text-decoration: none;
+h3 {
+  color: red;
+  font-size: 36px;
 }
 
-a:hover {
-  color:gray;
+#one {
+  background-color: yellow;
+  margin: 42px;
 }
 
-a visited {
-  color:gray;
+#two {
+  margin: 42px;
 }
 
-a active {
-  color: gray;
+#three {
+  float: left;
+  margin: 300px;
+  top: -100px;
+  position: relative;
+}
+
+#four {
+  float: right;
+  margin: 42px;
+  right: 250px;
+  top: 160px;
+  position: relative;
+}
+
+#five {
+  float: left;
+  margin-left: 200px;
+  top: 325px;
+  position: relative;
+}
+
+#six {
+  background-color: lightblue;
+  margin-top: 2400px;
+  margin-left: -42px;
+}
+
+#seven {
+  margin-left: -42px;
+  margin-top: 150px;
 }
